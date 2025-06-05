@@ -1,3 +1,37 @@
 body {
     background-color: khaki;
 }
+
+h2 {
+    color:  red;
+    font-size: 30px;
+    text-align: center;
+    text-align: center;
+}
+
+.chapter1 {
+    color:blue
+}
+
+#begin {
+    color:brown;
+    font-weight: bold;
+}
+
+.text {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    padding: 20px 50px; /* 20 - top, down, 50 right, left */
+    padding: 20px, 50px, 20, 50px; /* up, right, down, left */
+    border-width: 3px;
+    border-style: solid;
+    border-color: black; /* =border: 3px solid black */
+    margin: 20px
+
+}
