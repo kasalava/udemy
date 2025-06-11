@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box; 
+    margin: 0; /* все элементы сбросят свои значения по умолчччанию */
+    padding: 0;
+}
+
+.promo {
+    height: 800px;
+    background: url('../img/head.jpg')
+}
