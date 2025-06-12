@@ -6,5 +6,11 @@
 
 .promo {
     height: 800px;
-    background: url('../img/head.jpg')
+    background: url('../img/head.jpg') center center/ /* по оси х и у по центру */ cover /* растягивание картинки */ no-repeat /* картинка не повторялась? */
+} 
+
+.container {
+    width: 1140px;
+    margin: 0 auto; /* выровнять по центру */
+
 }
