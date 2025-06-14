@@ -7,6 +7,7 @@
 .promo {
     height: 800px;
     background: url('../img/head.jpg') center center/ /* по оси х и у по центру */ cover /* растягивание картинки */ no-repeat; /* картинка не повторялась? */
+    padding: 39px 0 62px 0;
 } 
 
 .container {
@@ -24,6 +25,8 @@
     font-family: Roboto;
     font-size: 15px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 24px; /* межстрочный интервал  */
     text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
 }
