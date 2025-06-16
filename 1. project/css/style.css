@@ -77,3 +77,25 @@ text-align: center;
     font-family: 'Roboto bold';
     font-weight: 700;
     }
+
+.promo .promo_btn {
+/* Записаться на интенсив! */
+position: absolute;
+width: 313;
+height: 72px;
+box-shadow: inset 0 -5px 0 rgba(0,0,0,0.18);
+border: 4px solid rgba(0,0,0,0.23);
+background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+/* left: 819px;
+top: 574.5px;
+font-family: 'RobotoCondensed';
+font-size: 21px;
+line-height: 24px;
+/* identical to box height, or 114% */
+/* display: flex;
+align-items: center;
+text-align: justify;
+text-transform: uppercase;
+color: #FFFFFF;
+text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22); */ 
+    }
