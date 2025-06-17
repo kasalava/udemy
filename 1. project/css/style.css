@@ -1,121 +1,146 @@
-*{
-    box-sizing: border-box; 
-    margin: 0; /* все элементы сбросят свои значения по умолчччанию */
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0; /* все элементы сбросят свои значения по умолчччанию */
+  padding: 0;
 }
 
 .promo {
-    height: 800px;
-    background: url('../img/head.jpg') center center/ /* по оси х и у по центру */ cover /* растягивание картинки */ no-repeat; /* картинка не повторялась? */
-    padding: 39px 0 62px 0;
-} 
-
-.container {
-    width: 1140px;
-    margin: 0 auto; /* выровнять по центру, только к блочным элементам */
+  height: 800px;
+  background: url("../img/head.jpg") center center/ /* по оси х и у по центру */
+    cover /* растягивание картинки */ no-repeat; /* картинка не повторялась? */
+  padding: 39px 0 62px 0;
 }
 
-.logo .logo_head { /* наследование */
-    display: block;
-    margin: 0 auto;
+.container {
+  width: 1140px;
+  margin: 0 auto; /* выровнять по центру, только к блочным элементам */
+}
+
+.logo .logo_head {
+  /* наследование */
+  display: block;
+  margin: 0 auto;
 }
 
 .logo .logo_text {
-    color:white;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px; /* межстрочный интервал  */
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 14px;
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px; /* межстрочный интервал  */
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 14px;
 }
 
 h1 {
-    margin-top: 53px;
+  margin-top: 53px;
 }
 
-h2.title 
-{
-    margin-top: 30px;
+h2.title {
+  margin-top: 30px;
 }
 
 .title {
-color: #F9BF3B;
-font-family: 'Roboto - Black';
-font-size: 41px;
-font-weight: 400;
+  color: #f9bf3b;
+  font-family: "Roboto - Black";
+  font-size: 41px;
+  font-weight: 400;
 
-text-transform: uppercase;
-text-align: center;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .simple .title_big {
-color: #ffffff;
-font-family: 'Roboto - Black';
-font-size: 80px;
-font-weight: 400;
+  color: #ffffff;
+  font-family: "Roboto - Black";
+  font-size: 80px;
+  font-weight: 400;
 
-text-transform: uppercase;
-text-align: center;
-margin-top: 21px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 21px;
 }
 
 .promo .promo_text {
-padding: 0 13px;
-margin-top: 23px;
-color: #FFFFFF;
-font-family: 'Roboto light';
-font-size: 21px;
-font-weight: 300;
-line-height: 28px;
-text-align: center;
+  padding: 0 13px;
+  margin-top: 23px;
+  color: #ffffff;
+  font-family: "Roboto light";
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
 }
 
 .promo .promo_text span {
-    color: #F9bf3b;
-    font-family: 'Roboto bold';
-    font-weight: 700;
-    }
+  color: #f9bf3b;
+  font-family: "Roboto bold";
+  font-weight: 700;
+}
 
 .promo .promo_btn {
-/* Записаться на интенсив! */
-display:block;
-margin: 0px auto;
-margin-top: 73px;
-width: 313px;
-height: 72px;
-box-shadow: inset 0 0 0 rgba(0,0,0,0.18);
-border: 4px solid rgba(0,0,0,0.23);
-background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+  /* Записаться на интенсив! */
+  display: block;
+  margin: 0px auto;
+  margin-top: 73px;
+  width: 313px;
+  height: 72px;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+  border: 4px solid rgba(0, 0, 0, 0.23);
+  background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
 
-text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
-color: #FFFFFF;
-font-family: 'Roboto Condensed';
-font-size: 21px;
-font-weight: 400px;
-line-height: 24px;
-text-transform: uppercase;
-cursor: pointer;
-    }
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-size: 21px;
+  font-weight: 400px;
+  line-height: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
 
-.more_{
-margin-top: 73px;
+.more_ {
+  margin-top: 73px;
 }
 
 .more .more_text {
-/* узнать больше об интенсиве */
-color: #FFFFFF;
-font-family: 'Roboto - thin';
-font-size: 15px;
-font-weight: 400;
-text-transform: uppercase;
-text-align: center;
-margin-top: 23px;
+  /* узнать больше об интенсиве */
+  color: #ffffff;
+  font-family: "Roboto - thin";
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 23px;
 }
 
 .more .more_img {
-    display: block; /* картинка отдельным блоком */
-    margin: 0 auto; /* ставим по центру */
-    margin-top: 13px;
+  display: block; /* картинка отдельным блоком */
+  margin: 0 auto; /* ставим по центру */
+  margin-top: 13px;
+}
+
+.waiting {
+  height: 604px;
+  background-color: #efefef;
+  padding: 85px 0 75px;
+}
+
+.waiting .waiting_header {
+  color: #252525;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.waiting .waiting_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+    
 }
