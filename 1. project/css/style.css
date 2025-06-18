@@ -142,5 +142,32 @@ h2.title {
     background-color: #f9bf3b;
     margin: 0 auto;
     margin-top: 18px;
-    
+}
+
+.waiting .waiting_subheader {
+  /* 2 бесплатных полноценных обучающих вебинара, где: */
+color: #4A4A4A;
+font-family: 'Roboto';
+font-size: 23px;
+font-weight: 400;
+
+position: absolute;
+width: 619px;
+height: 20px;
+left: 651px;
+top: 154.5px;
+
+
+font-style: normal;
+
+
+
+/* identical to box height, or 87% */
+display: flex;
+align-items: center;
+text-align: center;
+
+
+
+
 }
