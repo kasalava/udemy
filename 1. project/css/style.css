@@ -146,28 +146,21 @@ h2.title {
 
 .waiting .waiting_subheader {
   /* 2 бесплатных полноценных обучающих вебинара, где: */
+margin-top: 17px;
 color: #4A4A4A;
 font-family: 'Roboto';
 font-size: 23px;
 font-weight: 400;
-
-position: absolute;
-width: 619px;
-height: 20px;
-left: 651px;
-top: 154.5px;
-
-
-font-style: normal;
-
-
-
-/* identical to box height, or 87% */
-display: flex;
-align-items: center;
 text-align: center;
+}
 
+.waiting .waiting_wrapper {
+  margin-top: 45px;
+}
 
-
-
+.waiting .waiting_wrapper .waiting_item {
+  display: inline-block; /* блоки строчно-блочные элементы */
+  vertical-align: top; /* прижимаем элементы к верхней границе */
+  width: 339px;
+  text-align: center;
 }
