@@ -122,7 +122,7 @@ h2.title {
 }
 
 .waiting {
-  height: 604px;
+    height: 604px;
   background-color: #efefef;
   padding: 85px 0 75px;
 }
@@ -159,10 +159,10 @@ text-align: center;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-  display: inline-block; /* блоки строчно-блочные элементы */
-  vertical-align: top; /* прижимаем элементы к верхней границе */
+    display: inline-block;  /*блоки строчно-блочные элементы */
+  vertical-align: top;  /*прижимаем элементы к верхней границе */
   margin: 0 15px;
-  width: 339px;
+   width: 339px;
   text-align: center;
 }
 
