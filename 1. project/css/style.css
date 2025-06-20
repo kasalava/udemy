@@ -178,3 +178,7 @@ margin-top: 45px;
   font-weight: 300;
   line-height: 21px;
 }
+
+.optimization {
+  min-height: 550px;
+}
