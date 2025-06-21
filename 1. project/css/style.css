@@ -189,18 +189,22 @@ h2.title {
   margin-left: 391px;
   color: #299cbd;
   font-family: "Roboto - Black";
-  font-size: 30px;
+  font-size: 29px;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .optimization .optimization_text {
+  /* На просторах интернета несчетное количество действующих и даже  */
+  margin-top: 25px;
   margin-left: 391px;
+  color: #4a4a4a;
+  font-size: 29px;
+  font-weight: 300;
+  font-family: "Roboto light";
+  font-weight: 300;
+}
 
-/* На просторах интернета несчетное количество действующих и даже  */
-color: #4A4A4A;
-font-size: 17px;
-font-weight: 300;
-font-family: 'Roboto light';
-font-weight: 300;
+.optimization .optimization_text span {
+
 }
