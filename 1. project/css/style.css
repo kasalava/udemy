@@ -221,6 +221,9 @@ h2.title {
 .finish {
   min-height: 447px;
   padding: 86px 0 79px 0; 
-  
+  background: url('../img/second_bg.png') center /* по оси х */ center/cover /* по оси у/растягиваться на всю ширину */ no-repeat /* не нужно повторять */
+  z-index: -1;
+
+
 
 }
