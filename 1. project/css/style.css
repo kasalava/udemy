@@ -226,10 +226,21 @@ h2.title {
   min-height: 447px;
   padding: 86px 0 79px 0; 
   background: url('../img/second_bg.png') center /* по оси х */ center/cover /* по оси у/растягиваться на всю ширину */ no-repeat /* не нужно повторять */
-  }
+}
 
-  .finish .finish_wrapper {
+.finish .finish_wrapper {
 margin-top: 41px;
 display: flex;
 justify-content: space-between; /* выравнивание по оси */
-  }
+}
+
+.finish .finish_wrapper .finish_item {
+width: 204px; /* ширина */
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+  /* Круг */
+background: #B4E2FF;
+width: 115px;
+height: 115px;
+border-radius: 100%; /* из квадрата - круг */
