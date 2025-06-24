@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
 .promo {
   height: 800px;
   background: url("../img/head.jpg") center center/ /* по оси х и у по центру */
@@ -44,20 +48,16 @@ h2.title {
 
 .title {
   color: #f9bf3b;
-  font-family: "Roboto - Black";
   font-size: 41px;
-  font-weight: 400;
-
+  font-weight: 900;
   text-transform: uppercase;
   text-align: center;
 }
 
 .simple .title_big {
   color: #ffffff;
-  font-family: "Roboto - Black";
   font-size: 80px;
-  font-weight: 400;
-
+  font-weight: 900;
   text-transform: uppercase;
   text-align: center;
   margin-top: 21px;
@@ -67,7 +67,6 @@ h2.title {
   padding: 0 13px;
   margin-top: 23px;
   color: #ffffff;
-  font-family: "Roboto light";
   font-size: 21px;
   font-weight: 300;
   line-height: 28px;
@@ -76,8 +75,7 @@ h2.title {
 
 .promo .promo_text span {
   color: #f9bf3b;
-  font-family: "Roboto bold";
-  font-weight: 700;
+ font-weight: 700;
 }
 
 .promo .promo_btn {
@@ -93,7 +91,6 @@ h2.title {
 
   text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
   color: #ffffff;
-  font-family: "Roboto Condensed";
   font-size: 21px;
   font-weight: 400px;
   line-height: 24px;
@@ -108,7 +105,6 @@ h2.title {
 .more .more_text {
   /* узнать больше об интенсиве */
   color: #ffffff;
-  font-family: "Roboto - thin";
   font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
@@ -130,7 +126,6 @@ h2.title {
 
 .waiting .waiting_header, .finish .finish_header {
   color: #252525;
-  font-family: "Roboto";
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
