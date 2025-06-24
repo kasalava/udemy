@@ -225,7 +225,7 @@ h2.title {
 .finish {
   min-height: 447px;
   padding: 86px 0 79px 0; 
-  background: url('../img/second_bg.png') center /* по оси х */ center/cover /* по оси у/растягиваться на всю ширину */ no-repeat /* не нужно повторять */
+  background: url('../img/second_bg.png') center /* по оси х */ center/cover no-repeat;/* по оси у/растягиваться на всю ширину */ no-repeat /* не нужно повторять */
 }
 
 .finish .finish_wrapper {
@@ -240,7 +240,27 @@ width: 204px; /* ширина */
 
 .finish .finish_wrapper .finish_item .finish_round {
   /* Круг */
+  display: flex;
+  justify-content: center; /* выровнить по центру (по главной оси)*/
+  align-items: center; /* выровнить по центру (по поперечной оси)*/
+  margin: 0 auto;
 background: #B4E2FF;
 width: 115px;
 height: 115px;
 border-radius: 100%; /* из квадрата - круг */
+}
+
+.finish .finish_wrapper .finish_item .finish_description {
+margin-top: 25px;
+text-align: center; /* тест по центру */
+/* Создать свой сайт или блог */
+color: #EFEFEF;
+font-family: 'Roboto';
+font-size: 17px;
+font-weight: 300;
+/* or 118% */
+display: flex;
+margin: 0 auto;
+align-items: center;
+text-align: center;
+}
